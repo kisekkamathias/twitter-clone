@@ -657,12 +657,9 @@ font-size: 14px;
 
 
 @media(max-width:430px){
-    .button2{
+    .button2 ,.button1{
         flex-wrap: wrap;
     }
-    .button1{
-flex-wrap: wrap;
-   }
 }
 
 

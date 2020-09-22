@@ -1,0 +1,841 @@
+html body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0, 18, 34);
+    cursor: default;
+}
+.twitter-landing-page{
+    display: flex;
+    flex-direction: row;
+}
+.twitter-landingpage, .footer{
+    display: flex;
+    flex-direction: row;
+}
+.side-with-image{
+    background-image: url(images/img.png);
+    background-repeat: no-repeat;
+    padding-left: 8%;
+    padding-right: 9%;
+    padding-top: 15%;
+    padding-bottom: 17%;
+}
+.follow-intrests, .hear-what-people-talk, .join-conversation{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    margin-top: 40px;
+    font-size: 20px;
+}
+#search, #friends, #comment{
+    margin-right: 10px;
+}
+.side-with-login-form{
+    margin-left: 30px;
+}
+.phone-or-email, .required-password{
+    height: 65px;
+    width: 200px;
+    margin-right: 15px;
+    background-color: rgb(19, 35, 48);
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.phone-or-email p, .required-password p{
+margin-top: 0;
+color: rgb(95, 98, 116);
+margin-left: 10px;
+font-size: 14px;
+}
+.phone-or-email-input, .required-password-input{
+    border: none;
+    width: 97.5%;
+    background-color: rgb(19, 35, 48);
+    outline: none;
+    margin: 0;
+    border-bottom: 2px solid rgb(95, 98, 116);
+    color: rgb(95, 98, 116);
+    height: 30px;
+}
+.the-login-button{
+    height: 50px;
+    margin-top: 20px;
+    width: 90px;
+    color: rgb(86, 144, 252);
+    font-size: 20px;
+    background-color:  rgba(0, 18, 34);
+    outline: none;
+    border-color: rgb(86, 144, 252);
+    border-radius: 20px;
+}
+.forgot-password-link{
+    text-decoration: none;
+    color: rgb(86, 144, 252);
+    font-size: 15px;
+    margin: 20px;
+}
+.twter-icon-and-buttons{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+#the-twitter-icon{
+    font-size: 50px;
+}
+.twter-icon-and-buttons-text{
+    font-size: 35px;
+    margin: 0;
+}
+.twter-icon-and-buttons-text2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.sign-up-button, .log-in-button{
+    height: 50px;
+    width: 400px;
+    border-radius: 20px;
+    outline: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+.sign-up-button{
+    color: white;
+    background-color: teal;
+    margin-bottom: 20px;
+    border: none;
+}
+.log-in-button{
+    color: rgb(86, 144, 252);
+    background-color:  rgba(0, 18, 34);
+    outline: none;
+    border-color: rgb(86, 144, 252);
+    border-radius: 20px;
+}
+.button2{
+    display: none;
+}
+.footer, .footer a{
+    text-decoration: none;
+    color: rgb(109, 112, 138);
+    display: flex;
+    flex-direction: row;
+    font-size: 90%;
+}
+.footer{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   margin-left: 30px;
+}
+.footer a{
+    margin-right: 17px;
+}
+
+
+
+
+.twitters-login-form{
+    background-color: rgba(0, 18, 34, 0.8);
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 233px;
+    display: none;
+}
+#twitter-logo{
+    font-size: 50px;
+}
+.username-or-email, .password{
+    margin-left: 30%;
+    width: 40%;
+    height: 70px;
+    background-color: rgb(59, 74, 87);
+    text-align: left;
+    }
+.username-or-email p{
+    padding-left: 10px;
+    color: rgb(42, 148, 219);
+}
+.password p{ 
+    padding-left: 10px;
+    color: lightgray;
+}
+.username-or-email-input,.password-input{
+    border: none;
+    background-color: rgb(59, 74, 87);
+    outline: none;
+    height: 30px;
+    margin: 0;
+    width: 99%;
+}
+.username-or-email-input{
+    border-bottom: 2px solid rgb(42, 148, 219);
+    color:  rgb(42, 148, 219);
+}
+.password-input{
+    border-bottom: 2px solid lightgray;
+    color: lightgray;
+}
+.login-button{
+    width: 40%;
+    height: 50px;
+    border-radius: 100px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(51, 133, 255);
+    margin: 20px;
+    outline: none;
+    border: none;
+}
+.forgot-password-or-sign-up, .forgot-password, .sign-up{
+    color: rgb(42, 148, 219);
+    text-decoration: none;
+}
+
+
+
+
+
+.account-form{
+    background-color: rgba(87, 85, 85, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+.create-account-form{
+    margin-top: 45px;
+    margin-left: 30%;
+    width: 38%;
+    color: white;
+    background-color: rgba(0, 18, 34);
+    padding: 20px;
+    border-radius: 20px;
+}
+.twitter-logo-and-next-button{
+    padding-left: 200px;
+    font-size: 25px;
+}
+.create-account-next-bitton{
+    position: absolute;
+    right: 30.5%;
+    background-color: rgb(42, 148, 219);
+    height: 35px;
+    width: 80px;
+    color: white;
+    font-size: 15px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+.create-account-name, .create-account-phone{
+    height: 61px;
+    background-color: rgb(32, 47, 58);
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.create-account-name p{
+    padding-left: 10px;
+    color: rgb(42, 148, 219);
+}
+.name-number{
+    text-align: right;
+    color: rgb(150, 148, 148);
+}
+.create-account-phone p{
+    padding-left: 10px;
+    color: rgb(150, 148, 148);
+}
+.create-account-name-input, .create-account-phone-input{
+    border: none;
+    background-color: rgb(32, 47, 58);
+    outline: none;
+    height: 23px;
+    margin: 0;
+    width: 99.2%;
+}
+.create-account-name-input{
+    border-bottom: 2px solid rgb(42, 148, 219);
+    color: rgb(42, 148, 219);
+}
+.create-account-phone-input{
+    border-bottom: 2px solid rgb(150, 148, 148);
+    color: rgb(150, 148, 148);
+}
+.use-email-option-button{
+    text-decoration: none;
+    color: rgb(42, 148, 219);
+}
+.dob-alert-text{
+    color: rgb(150, 148, 148);
+}
+.date-of-birth{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 62px;
+}
+.month, .day, .year{
+    border: none;  
+    background-color: rgb(32, 47, 58);
+    outline: none;
+    height: 61px;
+    margin: 0;
+    color: rgb(150, 148, 148);
+}
+.month p, .day p, .year p{
+    margin-left: 5px;
+    margin-top: 0;
+}
+.month{
+    width: 38.7%;
+}
+.day, .year{
+    width: 28.7%;
+    margin-left: 10px;
+}
+.month-input, .day-input, .year-input{
+    border: none;
+    background-color: rgb(32, 47, 58);
+    outline: none;
+    height: 23px;
+    margin: 0;
+    width: 97.8%;
+    border-bottom:  2px solid rgb(150, 148, 148);
+    color: rgb(150, 148, 148);
+}
+
+
+
+
+@media(max-width:1300px){
+    .twitters-login-form{
+        text-align: center;
+        padding-top: 5%;
+        font-size: 25px;
+    }
+    #twitter-logo{
+        font-size: 50px;
+    }
+    .username-or-email{
+        margin-left: 25%;
+        margin-top: 7%;
+        width: 50%;
+        height: 10%;
+    }
+    .password{
+        margin-left: 25%;
+        margin-top: 2%;
+        width: 50%;
+        height: 10%;
+    }
+    .username-or-email p{
+        font-size: 20px;
+        padding: 5px;
+    }
+    .password p{ 
+        font-size: 20px;
+        padding: 5px;
+    }
+    .username-or-email-input,.password-input{
+        height: 20px;
+        margin: 0;
+        width: 99%;
+    }
+    .login-button{
+        width: 50%;
+        height: 70px;
+    }
+
+
+
+    .create-account-form{
+        width: 40%;
+        margin-top: 90px;
+    } 
+    #create-account-twitter-logo{
+        position: absolute;
+        right: 50%;
+    }
+    .create-account-next-bitton{
+        position: absolute;
+        right: 28%;
+    } 
+    .twitter-logo-and-next-button{
+        margin-bottom: 15%;
+    }
+}
+
+
+
+
+
+@media(max-width:1199px){
+    .twitters-login-form{
+        text-align: center;
+        padding-top: 8%;
+        font-size: 25px;
+    }
+    #twitter-logo{
+        font-size: 50px;
+    }
+    .username-or-email{
+        margin-left: 25%;
+        margin-top: 8%;
+        width: 50%;
+        height: 10%;
+    }
+    .password{
+        margin-left: 25%;
+        margin-top: 3%;
+        width: 50%;
+        height: 10%;
+    }
+    .username-or-email p{
+        font-size: 20px;
+        padding: 5px;
+    }
+    .password p{ 
+        font-size: 20px;
+        padding: 5px;
+    }
+    .username-or-email-input,.password-input{
+        height: 20px;
+        margin: 0;
+        width: 98.7%;
+    }
+    .login-button{
+        width: 50%;
+        height: 70px;
+    }
+
+
+    #create-account-twitter-logo{
+        position: absolute;
+        right: 50%;
+    }
+    .create-account-next-bitton{
+        position: absolute;
+        right: 28%;
+    }
+    .twitter-logo-and-next-button{
+        margin-bottom: 15%;
+    }
+    .create-account-name-input, .create-account-phone-input{
+        width: 98.7%;
+    }
+    .month-input, .day-input, .year-input{
+        width: 96%;
+    }
+}
+
+
+
+
+@media(max-width:800px){
+
+    .twitter-landingpage{
+        display: none;
+    }
+    .twitter-landing-page{
+        flex-wrap: wrap-reverse;
+    }
+    .side-with-image{
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .side-with-login-form, .side-with-image{
+        width: 100%;
+        margin: 0;
+    }
+    .twter-icon-and-buttons{
+        text-align: center;
+        margin-left: 10%;
+    }
+    .button2{
+        display: block;
+    }
+    .button2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 65%;
+        margin-left: 18%;
+        margin-right: 18%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        padding: 10px;
+    }
+    .button1{ 
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 65%;
+        margin-left: 18%;
+        margin-right: 18%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        padding: 10px;
+    }
+    .sign-up-button, .log-in-button{
+        width: 200px;
+        margin: 2%;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+
+    
+
+
+
+    .twitters-login-form{
+        text-align: center;
+        padding-top: 8%;
+        font-size: 25px;
+    }
+    #twitter-logo{
+        font-size: 50px;
+    }
+    .username-or-email{
+        margin-left: 20%;
+        margin-top: 8%;
+        width: 60%;
+        height: 10%;
+    }
+    .password{
+        margin-left: 20%;
+        margin-top: 3%;
+        width: 60%;
+        height: 10%;
+    }
+    .username-or-email p{
+        font-size: 17px;
+        padding: 5px;
+    }
+    .password p{ 
+        font-size: 17px;
+        padding: 5px;
+    }
+    .username-or-email-input,.password-input{
+        height: 20px;
+        margin: 0;
+        width: 98.8%;
+    }
+    .login-button{
+        width: 60%;
+        height: 70px;
+    }
+
+
+    .account-form{
+        margin-bottom: 0;
+    }
+    .create-account-form{
+        width: 50%;
+        margin-left: 25%;
+    } 
+    #create-account-twitter-logo{
+        position: absolute;
+        right: 50%;
+    }
+    .create-account-next-bitton{
+        position: absolute;
+        right: 22%;
+    } 
+}
+
+
+
+
+@media(max-width:530px){
+    .twitters-login-form{
+        text-align: center;
+        margin-top: 18%;
+        font-size: 17px;
+    }
+    #twitter-logo{
+        font-size: 45px;
+    }
+    .username-or-email{
+        margin-left: 20%;
+        margin-top: 10%;
+        width: 60%;
+        height: 10%;
+    }
+    .password{
+        margin-left: 20%;
+        margin-top: 5%;
+        width: 60%;
+        height: 10%;
+    }
+    .username-or-email p{
+        font-size: 13px;
+        padding: 5px;
+    }
+    .password p{ 
+        font-size: 13px;
+        padding: 5px;
+    }
+    .username-or-email-input,.password-input{
+        height: 20px;
+        margin: 0;
+        width: 97.8%;
+    }
+    .login-button{
+        width: 60%;
+        height: 45px;
+        margin-top: 5%;
+    }
+    .forgot-password-or-sign-up{
+        display: flex;
+        flex-direction: column;
+    }
+    .dot{
+        display: none;
+    }
+    .forgot-password{
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+
+    .account-form{
+        background-color: rgba(0, 18, 34);
+    }
+    .create-account-form{
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        width: 90%;
+        height: 93.6%;
+        margin: 0;        
+        border-radius: 0;
+        padding: 5%;
+    } 
+    #create-account-twitter-logo{
+        position: absolute;
+        left: 30%;
+    }
+    .create-account-next-bitton{
+        position: absolute;
+        right: 5%;
+    } 
+    .create-account-name, .create-account-phone{
+        margin-top: 10%;
+        width: 95%;
+        height: 8%;
+    }
+    .create-account-name-input, .create-account-phone-input{
+        width: 98.9%;
+    }
+    .month, .day, .year{
+        width: 95%;
+        margin-top: 2%;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .month-input, .day-input, .year-input{
+        width: 98.6%;
+    }
+    .date-of-birth{
+        flex-wrap: wrap;
+        margin-bottom: 0;
+    }
+}
+
+
+
+
+@media(max-width:430px){
+    .button2{
+        flex-wrap: wrap;
+    }
+    .button1{
+flex-wrap: wrap;
+   }
+}
+
+
+
+
+
+
+
+@media(max-width:320px) {
+    .twitters-login-form{
+        padding-top: 50px;
+        font-size: 16px;
+    }
+    #twitter-logo{
+        font-size: 30px;
+    }
+    .username-or-email, .password{
+        margin: 10%;
+        width: 80%;
+        height: 50px;
+    }
+    .username-or-email p{
+        font-size: 12px;
+        padding: 5px;
+    }
+    .password p{ 
+        font-size: 12px;
+        padding: 5px;
+    }
+    .username-or-email-input,.password-input{
+        height: 20px;
+        margin: 0;
+        width: 98.4%;
+    }
+    .login-button{
+        width: 80%;
+        height: 40px;
+        border-radius: 80px;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+
+
+
+    .account-form{
+        background-color: rgba(0, 18, 34);
+    }
+    .create-account-form{
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        width: 90%;
+        height: 93.6%;
+        margin: 0;        
+        border-radius: 0;
+        padding: 5%;
+        font-size: 70%;
+    } 
+    #create-account-twitter-logo{
+        position: absolute;
+        left: 30%;
+    }
+    .create-account-next-bitton{
+        height: 5%;
+        width: 20%;
+        font-size: 50%;
+    } 
+    .create-account-name, .create-account-phone{
+        width: 95%;
+        height: 8%;
+        margin-top: 3%;
+    }
+    .create-account-name-input, .create-account-phone-input{
+        width: 98.45%;
+    }
+   .month, .day, .year{
+        width: 95%;
+        margin-top: 2%;
+        margin-left: 0;
+        height: 10%;
+    }
+    .month-input, .day-input, .year-input{
+        width: 98.45%;
+    }
+    .date-of-birth{
+        flex-wrap: wrap;
+    }
+}
+
+
+
+
+@media(max-width:280px) {
+    .twitters-login-form{
+        padding-top: 50px;
+    }
+    #twitter-logo{
+        font-size: 20px;
+    }
+    .username-or-email, .password{
+        margin: 10%;
+        width: 80%;
+        height: 50px;
+    }
+    .username-or-email p{
+        font-size: 12px;
+        padding: 5px;
+    }
+    .password p{ 
+        font-size: 12px;
+        padding: 5px;
+    }
+    .username-or-email-input,.password-input{
+        height: 20px;
+        margin: 0;
+        width: 98%;
+    }
+    .login-button{
+        width: 80%;
+        height: 40px;
+        border-radius: 80px;
+        font-size: 15px;
+        margin: 10px;
+    }
+
+
+
+   .create-account-name-input, .create-account-phone-input{
+        width: 98.21%;
+    }
+   .month-input, .day-input, .year-input{
+        width: 98.21%;
+    }
+}
+
+
+
+@media(max-width:220px) {
+    .twitters-login-form{
+        padding-top: 40px;
+        font-size: 10px;
+    }
+    #twitter-logo{
+        font-size: 10px;
+    }
+    .username-or-email, .password{
+        margin-left: 14%;
+        margin-bottom: 10%;
+        width: 75%;
+        height: 47px;
+    }
+    .username-or-email p, .password p{
+        font-size: 65%;
+        padding: 4px;
+    }
+    .username-or-email-input,.password-input{
+        height: 20px;
+        margin: 0;
+        width: 97.2%;
+    }
+    .login-button{
+        width: 70%;
+        height: 30px;
+        border-radius: 70px;
+        font-size: 10px;
+        margin: 10px;
+    }
+
+    .create-account-name-input, .create-account-phone-input{
+        width: 95%;
+    }
+   .month-input, .day-input, .year-input{
+        width: 95%;
+    }
+} 

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="twitter.css">
+    <link rel="stylesheet" href="icons/css/all.css">
+</head>
+<body>
+    <section id="landing-page">
+        <div class="twitter-landing-page">
+            <div class="side-with-image">
+                <div class="follow-intrests">
+                    <i class="fas fa-search" id="search"></i>
+                    <span class="follow-intrests-paragraph">Follow your interests.</span>
+                </div>
+                <div class="hear-what-people-talk">
+                    <i class="fas fa-user-friends" id="friends"></i>
+                    <span class="hear-what-people-talk-paragraph">Hear what people are talking about.</span>
+                </div>
+                <div class="join-conversation">
+                    <i class="far fa-comment" id="comment"></i>
+                    <span class="join-conversation-paragraph">Join the conversation.</span>
+                </div>
+            </div>
+            <div class="side-with-login-form">
+                <form class="twitter-landingpage">
+                    <div class="phone-or-email">
+                        <p>Phone, email, or username</p>
+                        <input type="text" class="phone-or-email-input" required>
+                    </div>
+                    <div>
+                        <div class="required-password">
+                            <p>Password</p>
+                            <input type="password" class="required-password-input" required>
+                        </div>
+                        <a href="" class="forgot-password-link">Forgot password?</a>
+                    </div>
+                    <button class="the-login-button">Login</button>
+                </form>
+                <div class="twter-icon-and-buttons">
+                    <i class="fab fa-twitter" id="the-twitter-icon"></i>
+                    <h2 class="twter-icon-and-buttons-text">See whats happening in<br/>the world right now</h2>
+                    <p class="twter-icon-and-buttons-text2">Join Twitter today.</p>
+                    <div class="button1">
+                        <button class="sign-up-button" onclick="document.getElementById('create-account').style.display='block'">Sign up</button> <br>
+                        <button class="log-in-button" onclick="document.getElementById('login-form').style.display='block',document.getElementById('landing-page').style.display='none'">Log in</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="button2">
+            <button class="sign-up-button" onclick="document.getElementById('create-account').style.display='block'">Sign up</button> <br>
+            <button class="log-in-button" onclick="document.getElementById('login-form').style.display='block',document.getElementById('landing-page').style.display='none'">Log in</button>
+        </div>
+        <footer class="footer">
+            <a href="">About</a>
+            <a href="">Help Center</a>
+            <a href="">Terms</a>
+            <a href="">Privacy policy</a>
+            <a href="">Cookies</a>
+            <a href="">Ads info</a>
+            <a href="">Blog</a>
+            <a href="">Status</a>
+            <a href="">Jobs</a>
+            <a href="">Brand</a>
+            <a href="">Advertise</a>
+            <a href="">Marketing</a>
+            <a href="">Business</a>
+            <a href="">Developers</a>
+            <a href="">Directory</a>
+            <a href="">Settings</a>
+            <div>
+                <i class="far fa-copyright"></i>
+                <span>2020 Twitter, Inc</span>
+            </div>
+        </footer>
+    </section>
+    <section>
+        <div class="twitters-login-form" id="login-form">
+            <i class="fab fa-twitter"  id="twitter-logo"></i>
+            <h2>Log in to Twitter</h2>
+            <form action="">
+                <div class="username-or-email">
+                    <p>Phone, email, or username</p>
+                    <input type="text" required class="username-or-email-input">
+                </div>
+                <div class="password">
+                    <p>Password</p>
+                    <input type="password" required class="password-input">
+                </div>
+                <button class="login-button">Log in</button>  
+            </form>
+            <div class="forgot-password-or-sign-up">
+                <a href="" class="forgot-password">Forgot password?</a>
+                <span class="dot">.</span>
+                <a href="" class="sign-up">Sign up for Twitter</a>
+            </div>
+        </div>
+        <div class="account-form" id="create-account">
+            <form class="create-account-form">
+                <div class="twitter-logo-and-next-button">
+                    <i class="fab fa-twitter"  id="create-account-twitter-logo"></i>
+                    <button class="create-account-next-bitton">Next</button>
+                </div>
+                <h2>Create your account</h2>
+                <div class="create-account-name">
+                    <p>Name</p>
+                    <input type="text" required class="create-account-name-input">
+                    <div class="name-number">0/50</div>
+                </div>
+                <div class="create-account-phone">
+                    <p>Phone</p>
+                    <input type="text" required class="create-account-phone-input">
+                </div>
+                <a href="" class="use-email-option-button">Use email instead</a>
+                <h2>Date of birth</h2>
+                <p class="dob-alert-text">This will not be shown pudlicly. Confirm your own age, even if this account is for a business, a pet, or something else.</p>    
+                <div class="date-of-birth">
+                    <div class="month">
+                       <p>Month</p>
+                        <input type="text" required class="month-input">
+                    </div>
+                    <div class="day">
+                        <p>Day</p>
+                        <input type="text" required class="day-input">
+                    </div>
+                    <div class="year">
+                        <p>Year</p>
+                        <input type="text" required class="year-input">
+                    </div>
+                </div>     
+            </form>
+        </div>
+    </section>
+</body>
+</html>

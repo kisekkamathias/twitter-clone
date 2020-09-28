@@ -32,7 +32,7 @@ html body{
     margin-top: 40px;
     font-size: 20px;
 }
-#search, #friends, #comment{
+.fa-search, .fa-user-friends, .fa-comment{
     margin-right: 10px;
 }
 .side-with-login-form{

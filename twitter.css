@@ -8,6 +8,7 @@ html body{
     color: white;
     background-color: rgba(0, 18, 34);
     cursor: default;
+    margin-bottom: 10px;
 }
 .twitter-landing-page{
     display: flex;
@@ -659,6 +660,14 @@ font-size: 14px;
 @media(max-width:430px){
     .button2 ,.button1{
         flex-wrap: wrap;
+    }
+}
+@media(max-width: 360px){
+    .footer, .footer a{
+        display: flex;
+        flex-direction: column;
+        margin: 2px;
+        text-align: center;
     }
 }
 

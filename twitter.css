@@ -664,8 +664,6 @@ font-size: 14px;
 }
 @media(max-width: 360px){
     .footer, .footer a{
-        display: flex;
-        flex-direction: column;
         margin: 2px;
         text-align: center;
     }
